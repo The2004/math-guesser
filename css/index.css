@@ -1,0 +1,62 @@
+body, html{
+    background-color: #313131;
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    /*set font size to 20% of screen width*/
+    font-size: calc(20px + (100vw - 320px) * 0.02);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#cont{
+    position: relative;
+}
+
+.cell{
+    display: inline-block;
+    aspect-ratio: 1/1;
+    width: 13%;
+    background-color: #ffffff00;
+    border: 1px solid #000000;
+    float: left;
+    margin: 0.5%;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    border-radius: 10%;
+    font-size: 8vw;
+    border-color: #ffffff;
+    border-width: 1vw;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+#toptext{
+    font-size: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.buttons{
+    display: inline-block;
+    width: fit-content;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    border-radius: 10%;
+    font-size: 10vw;
+    border-color: #ffffff;
+    border-width: 1vw;
+    color: #ffffff;
+    transition: all 1s ease;
+    background-color: rgb(94, 94, 94);
+    border-style: solid;
+}
+
+.buttons:active{
+    background-color: rgb(37, 37, 37);
+}
